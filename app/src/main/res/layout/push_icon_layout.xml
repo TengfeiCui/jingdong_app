@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    android:background="#10b0b0b0"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/pOther"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="拍照上传"
+        android:id="@+id/shangchuan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#20000000"
+        android:layout_height="0.3dp"/>
+
+    <TextView
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="本地上传"
+        android:id="@+id/bendi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#b0b0b0"
+        android:padding="5dp"
+        android:text="取消"
+        android:id="@+id/quxiao"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
